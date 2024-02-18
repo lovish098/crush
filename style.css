@@ -24,6 +24,21 @@ body {
     padding: 20px; /* Adjust padding for smaller screens */
   }
 
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+  body {
+  height: 100%;
+    font-size: 14px; /* Adjust font size for screens between 300px and 600px */
+  }
+
+  .paper {
+    padding: 20px; /* Adjust padding for screens between 300px and 600px */
+  }
+
+  .paper.image p {
+    font-size: 20px; /* Adjust font size for screens between 300px and 600px */
+  }
+}
+
   .paper.image p {
     font-size: 20px; /* Adjust font size for smaller screens */
   }
